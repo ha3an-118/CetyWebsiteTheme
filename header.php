@@ -60,7 +60,12 @@
 
                 <!--logo pic -->
                 <div>
-                    <a href="./Home.html"><img src="./assets/img/logo/Logo and name fa png.png" alt="logo-image" width="50px"></a>
+                    <?php
+                    require_once(get_template_directory() . '/inc/Helpers/View/CustomLogoHelper.php');
+                    InsertCustomLogo();
+                    ?>
+ 
+                    <!-- <a href="./Home.html"><img src="./assets/img/logo/Logo and name fa png.png" alt="logo-image" width="50px"></a> -->
                 </div>
                 <!--end logo pic  -->
 
