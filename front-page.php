@@ -2,6 +2,7 @@
 require_once(get_template_directory() . '/Templates/Header/DefaultHeader.php');
 ?>
 
+
 <!-- body part-->
 <main>
     <div class="mt-5 img-shape">
