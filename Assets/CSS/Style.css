@@ -14,8 +14,8 @@
 /*----------custom style part----------*/
 @font-face {
 	font-family: IRANSansDNF;
-	src: url(../../Fonts/Iransans/IRANSansDNFaNum.ttf);
-	src: url(../../Fonts/Iransans/IRANSansDNFaNum.woff2);
+	src: url(../Fonts/Iransans/IRANSansDNFaNum.ttf);
+	src: url(../Fonts/Iransans/IRANSansDNFaNum.woff2);
 }
 
 @media screen and (max-width: 992px) {
