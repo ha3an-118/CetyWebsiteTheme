@@ -1,5 +1,5 @@
 <?php
-require_once(get_template_directory() . '/Templates/Header/DefaultHeader.php');
+get_header();
 ?>
 
 
@@ -581,5 +581,5 @@ require_once(get_template_directory() . '/Templates/Header/DefaultHeader.php');
 
 
 <?php
-require_once(get_template_directory() . '/Templates/Footer/DefaultFooter.php');
+get_footer();
 ?>
