@@ -1,43 +1,32 @@
 <?php
-//Actions
-add_action('wp_enqueue_scripts', 'IncludeStylesAndScripts');
+/* Actions */
 
-add_action('after_setup_theme', 'CustomLogoSetup');
-
-
-
-
-
-//Registers
-require_once(get_template_directory() . '/inc/Helpers/View/HeaderNavMenuHelper.php');
-RegisterNavMenus();
-
-
-
-
-
-//-------Functions
-function IncludeStylesAndScripts()
-{
-    require_once(get_template_directory() . '/inc/Boundle.php');
-    $Boundle = new Boundle();
-
-    $Boundle->Include('Jquery');
-    $Boundle->Include('Bootstrap');
-    $Boundle->Include('WebsiteStyle');
-    $Boundle->Include('WebsiteScript');
-}
-
-
-function CustomLogoSetup()
-{
-    $CustomLogoInfo = array(
-        'height'      => 100,
-        'width'       => 400,
-        'flex-height' => true,
-        'flex-width'  => true,
-        'header-text' => array('site-title', 'site-description'),
+//theme features support and defualts
+add_action('after_setup_theme', function () {
+    //custom logo setup
+    add_theme_support(
+        'custom-logo',
+        array(
+            'height'      => 100,
+            'width'       => 400,
+            'flex-height' => true,
+            'flex-width'  => true,
+            'header-text' => array('site-title', 'site-description'),
+        )
     );
 
-    add_theme_support('custom-logo', $CustomLogoInfo);
-}
+    //nav bar menu
+    register_nav_menus(
+        array(
+            'HeaderNavMenu' => __('Header Navigation Menu', 'CetyWebsiteTheme'),
+            'HeaderSocialMenu' => __('Header Social Menu', 'CetyWebsiteTheme'),
+            'FooterSocialMenu' => __('Footer Social Menu', 'CetyWebsiteTheme'),
+        )
+    );
+});
+
+
+//register all styles and scripts
+add_action('template_redirect', function () {
+    require_once(get_template_directory() . '/inc/StylesAndScriptsRegistration.php');
+});
