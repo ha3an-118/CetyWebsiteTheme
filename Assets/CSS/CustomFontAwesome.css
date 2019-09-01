@@ -1,5 +1,5 @@
-@import url(./all.css);
-@import url(./fontawesome.css);
+/* @import url(./all.css); */
+/* @import url(./fontawesome.css); */
 /* @import url(../../custom/css/Color.css); */
 
 .fa-15x {
@@ -122,4 +122,38 @@
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--white-cety);
+}
+
+/*social menu icons*/
+.SocialMenu li a[href*="dribbble.com"] i::before { content: '\f17d'; }
+.SocialMenu li a[href*="facebook.com"] i::before { content: '\f09a'; }
+.SocialMenu li a[href*="flickr.com"] i::before { content: '\f16e'; }
+.SocialMenu li a[href*="foursquare.com"] i::before { content: '\f180'; }
+.SocialMenu li a[href*="github.com"] i::before { content: '\f09b'; }
+.SocialMenu li a[href*="plus.google.com"] i::before { content: '\f0d5'; }
+.SocialMenu li a[href*="instagram.com"] i::before { content: '\f16d'; }
+.SocialMenu li a[href*="jsfiddle.com"] i::before { content: '\f1cc'; }
+.SocialMenu li a[href*="linkedin.com"] i::before { content: '\f0e1'; }
+.SocialMenu li a[href*="pinterest.com"] i::before { content: '\f0d2'; }
+.SocialMenu li a[href*="reddit.com"] i::before { content: '\f1a1'; }
+.SocialMenu li a[href*="soundcloud.com"] i::before { content: '\f1be'; }
+.SocialMenu li a[href*="stackoverflow.com"] i::before { content: '\f16c'; }
+.SocialMenu li a[href*="tumblr.com"] i::before { content: '\f173'; }
+.SocialMenu li a[href*="twitter.com"] i::before { content: '\f099'; }
+.SocialMenu li a[href*="vimeo.com"] i::before { content: '\f194'; }
+.SocialMenu li a[href*="vine.co"] i::before { content: '\f1ca'; }
+.SocialMenu li a[href*="yelp.com"] i::before { content: '\f1e9'; }
+.SocialMenu li a[href*="youtube.com"] i::before { content: '\f167'; }
+.SocialMenu li a[href*="wordpress.com"] i::before { content: '\f19a'; }
+.SocialMenu li a[href*="wordpress.org"] i::before { content: '\f19a'; }
+.SocialMenu li a[href*="telegram.org"] i::before { content: '\f1d8'; font-family: 'Font Awesome 5 Free' !important;}
+
+.SocialMenu  li a i{
+    font-family: 'Font Awesome 5 Brands';
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
 }
