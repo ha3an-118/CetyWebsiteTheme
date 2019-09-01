@@ -315,7 +315,7 @@ select,
 	position: unset !important;
 }
 
-.active {
+.current-menu-item span {
 	color: var(--purple-cety) !important;
 }
 
