@@ -146,7 +146,7 @@
 .SocialMenu li a[href*="youtube.com"] i::before { content: '\f167'; }
 .SocialMenu li a[href*="wordpress.com"] i::before { content: '\f19a'; }
 .SocialMenu li a[href*="wordpress.org"] i::before { content: '\f19a'; }
-.SocialMenu li a[href*="telegram.org"] i::before { content: '\f1d8'; font-family: 'Font Awesome 5 Free' !important;}
+.SocialMenu li a[href*="telegram.org"] i::before { content: '\f3fe'; }
 
 .SocialMenu  li a i{
     font-family: 'Font Awesome 5 Brands';

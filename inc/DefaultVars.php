@@ -5,3 +5,5 @@
  */
 
 const HeaderNavigationMenuLocation = 'HeaderNavMenu';
+const HeaderSocialMediaMenuLocation = 'HeaderSocialMenu';
+const FooterSocialMediaMenuLocation = 'FooterSocialMenu';

@@ -22,9 +22,9 @@ add_action('after_setup_theme', function () {
     //nav bar menu
     register_nav_menus(
         array(
-            'HeaderNavMenu' => __('Header Navigation Menu', 'CetyWebsiteTheme'),
-            'HeaderSocialMenu' => __('Header Social Menu', 'CetyWebsiteTheme'),
-            'FooterSocialMenu' => __('Footer Social Menu', 'CetyWebsiteTheme'),
+            HeaderNavigationMenuLocation => __('Header Navigation Menu', 'CetyWebsiteTheme'),
+            HeaderSocialMediaMenuLocation => __('Header Social Menu', 'CetyWebsiteTheme'),
+            FooterSocialMediaMenuLocation => __('Footer Social Menu', 'CetyWebsiteTheme'),
         )
     );
 });
