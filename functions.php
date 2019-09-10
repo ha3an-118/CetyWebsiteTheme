@@ -1,6 +1,6 @@
 <?php
 //Include all variables that needed
-require_once(get_template_directory() . '/inc/DefaultVars.php');
+require_once(get_template_directory() . '/inc/Config.php');
 
 
 /* Actions */
@@ -27,6 +27,9 @@ add_action('after_setup_theme', function () {
             FooterSocialMediaMenuLocation => __('Footer Social Menu', 'CetyWebsiteTheme'),
         )
     );
+
+    //post image support(featured image)
+    add_theme_support('post-thumbnails');
 });
 
 
