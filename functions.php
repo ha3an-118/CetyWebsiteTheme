@@ -1,4 +1,8 @@
 <?php
+//Include all variables that needed
+require_once(get_template_directory() . '/inc/DefaultVars.php');
+
+
 /* Actions */
 
 //theme features support and defualts
