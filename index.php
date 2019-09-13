@@ -1,5 +1,5 @@
 <?php
-get_header();
 
-get_footer();
-?>
+wp_redirect(home_url());
+
+exit;
