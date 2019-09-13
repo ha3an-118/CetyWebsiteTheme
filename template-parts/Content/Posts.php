@@ -3,9 +3,13 @@ if (!have_posts())
     return;
 
 $PageNumber = ($PageNumber = get_query_var('paged')) ? $PageNumber : 1;
+$Author = ($Author = get_query_var('author')) ? $Author : null;
+$TagId = ($TagId = get_query_var('tag_id')) ? $TagId : null;
 $Args = array(
     'posts_per_page' => NumberPostsPerPage,
     'paged' => $PageNumber,
+    'author' => $Author,
+    'tag_id' => $TagId,
 );
 $wp_query = $Posts = new WP_Query($Args);
 ?>
@@ -21,7 +25,7 @@ $wp_query = $Posts = new WP_Query($Args);
             <a href="<?php echo esc_url(the_permalink()) ?>">
                 <!-- weblog -->
                 <div class="card border-0">
-                    <?php get_template_part('template-parts/Content/PostThumbnail') ?>
+                    <?php get_template_part('template-parts/Content/PostThumbnail/PostThumbnail') ?>
                     <!-- weblog image -->
                     <div class="card-body fa-08x p-2 text-right">
                         <h6 class="card-title text-dark-cety"><?php the_title() ?></h6>
