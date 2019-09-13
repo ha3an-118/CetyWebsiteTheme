@@ -30,6 +30,9 @@ add_action('after_setup_theme', function () {
 
     //post image support(featured image)
     add_theme_support('post-thumbnails');
+
+    //selective refresh suppport
+    add_theme_support('customize-selective-refresh-widgets');
 });
 
 
@@ -37,3 +40,6 @@ add_action('after_setup_theme', function () {
 add_action('template_redirect', function () {
     require_once(get_template_directory() . '/inc/StylesAndScriptsRegistration.php');
 });
+
+//add customizer
+require_once(get_template_directory() . '/inc/Customizer.php');

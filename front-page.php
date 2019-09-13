@@ -13,19 +13,18 @@ get_header();
         <section>
             <div class="d-flex flex-row justify-content-between container mx-auto px-3 px-md-0">
                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class="text-center text-dark-cety">طراحی سایت تخصص ماست!</h3><!-- title -->
+                    <h3 class="text-center text-dark-cety" id="<?php echo FrontPageCustomizeSloganTitleSettingId ?>"><?php esc_html_e(get_theme_mod(FrontPageCustomizeSloganTitleSettingId)) ?></h3><!-- title -->
                     <div class="space-20"></div> <!-- this is for spacing -->
-                    <span class="text-center text-dark-cety">
+                    <span class="text-center text-dark-cety" id="<?php echo FrontPageCustomizeSloganContentSettingId ?>">
                         <!-- description -->
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                        از صنعت چاپ و با استفاده از
-                        طراحان گرافیک است.
+                        <?php esc_html_e(get_theme_mod(FrontPageCustomizeSloganContentSettingId)) ?>
                     </span>
                     <div class="space-100"></div> <!-- this is for spacing -->
                     <div>
-                        <a href="/OrderPage.html">
-                            <span class="btn rounded shadow bg-purple-cety text-white-cety hover-bg-light-purple-cety focus-bg-light-purple-cety">همین
-                                الان سفارش بده</span>
+                        <a href="<?php echo esc_url(get_permalink(get_theme_mod(FrontPageCustomizeOrderButtonLinkSettingId))) ?>">
+                            <span id="<?php echo FrontPageCustomizeOrderButtonTitleSettingId ?>" class="btn rounded shadow bg-purple-cety text-white-cety hover-bg-light-purple-cety focus-bg-light-purple-cety">
+                                <?php esc_html_e(get_theme_mod(FrontPageCustomizeOrderButtonTitleSettingId)) ?>
+                            </span>
                         </a>
                     </div><!-- btn for order website page -->
                 </div>
