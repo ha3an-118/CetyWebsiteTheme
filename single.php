@@ -15,7 +15,7 @@ get_header();
             <section>
 
                 <!-- the article -->
-                <article class="px-3">
+                <article class="bg-white-cety p-3 rounded shadow">
 
                     <!-- article image -->
                     <div class="d-flex flex-row justify-content-center">
@@ -28,7 +28,7 @@ get_header();
                     <div class="space-20"></div> <!-- this is for spacing -->
 
                     <!-- article text -->
-                    <div class="text-right">
+                    <div class="text-left">
                         <h5><?php the_title(); ?></h5><!-- article subject -->
 
                         <?php esc_html(the_content()) ?>
