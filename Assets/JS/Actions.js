@@ -1,3 +1,26 @@
+/* on load functions */
+
+$(document).ready(function () {
+
+    //margin top if there is wpadminbar
+    wpadminbar_mt();
+});
+
+/* end on load functions */
+
+/* on page resize functions */
+
+$(window).resize(function () {
+
+    //on page resize close navside if its open to prevent problem
+    closeNav();
+
+    //margin top if there is wpadminbar
+    wpadminbar_mt();
+});
+
+/* on page resize functions */
+
 /* this is for viewing the  website,github  links when clicked on work samples */
 
 function review_links(e) {
@@ -137,3 +160,29 @@ window.onscroll = function () {
 }
 
 /* end hide and show header navbar */
+
+/* if there is wpadminbar */
+function wpadminbar_mt() {
+
+    if (document.getElementById("wpadminbar") != null) {
+        if(window.innerWidth <=782){
+            $("header").addClass("mt-46px");
+            $("main").addClass("mt-46px");
+            $("#Sidenav").addClass("mt-46px");
+
+            $("header").removeClass("mt-32px");
+            $("main").removeClass("mt-32px");
+            $("#Sidenav").removeClass("mt-32px");
+        }
+        else if (window.innerWidth >782){
+            $("header").addClass("mt-32px");
+            $("main").addClass("mt-32px");
+            $("#Sidenav").addClass("mt-32px");
+
+            $("header").removeClass("mt-46px");
+            $("main").removeClass("mt-46px");
+            $("#Sidenav").removeClass("mt-46px");
+        }
+    }
+}
+/* end wpadminbar */

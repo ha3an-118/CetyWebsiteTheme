@@ -191,7 +191,7 @@ get_header();
                     <div class="col-10 d-flex flex-column">
                         <!-- about person part -->
                         <div>
-                            <div class="text-right">
+                            <div class="text-left">
                                 <h6>حسن عابدی</h6><!-- name -->
                                 <span class="text-gray-cety py-2">برنامه نویس PHP و غیره</span>
                                 <!-- description -->
@@ -228,7 +228,7 @@ get_header();
                     <div class="col-10 d-flex flex-column">
                         <!-- about person part -->
                         <div>
-                            <div class="text-right">
+                            <div class="text-left">
                                 <h6>عباس بابایی</h6><!-- name -->
                                 <span class="text-gray-cety py-2">برنامه نویس PHP و غیره</span>
                                 <!-- description -->
@@ -265,7 +265,7 @@ get_header();
                     <div class="col-10 d-flex flex-column">
                         <!-- about person part -->
                         <div>
-                            <div class="text-right">
+                            <div class="text-left">
                                 <h6>پارسا لاریمیان</h6><!-- name -->
                                 <span class="text-gray-cety py-2">برنامه نویس PHP و غیره</span>
                                 <!-- description -->
@@ -306,7 +306,7 @@ get_header();
             <div class="container mx-auto px-3 px-md-0">
                 <!-- title of this part -->
                 <div class="row">
-                    <i class="fab fa-twitter fa-15x pl-2 twitter-color"></i><!-- twiteer icon -->
+                    <i class="fab fa-twitter fa-15x pr-2 twitter-color"></i><!-- twiteer icon -->
                     <h4>آخرین توییت ما</h4><!-- the title -->
                 </div>
                 <!-- end tittle of this part  -->
@@ -318,7 +318,7 @@ get_header();
                     <!-- text part -->
                     <div class="col-10 d-flex flex-column">
                         <!-- writer part -->
-                        <div class="pl-2">
+                        <div class="pr-2">
                             <span>Cety </span><!-- the writers name -->
                             <span class="text-gray-cety fa-08x">@cety 5hours ago</span><!-- the time of post -->
                         </div>
@@ -337,28 +337,28 @@ get_header();
                         <div class="d-flex justify-content-around mt-3">
                             <!-- shaer icon -->
                             <div class="row text-gray-cety">
-                                <i class="fa fa-share-alt pr-1"></i>
+                                <i class="fa fa-share-alt pl-1"></i>
                             </div>
                             <!-- end sghare icon -->
 
                             <!-- likes icon -->
                             <div class="row text-gray-cety">
                                 <h6>3</h6><!-- likes numbers -->
-                                <i class="fa fa-heart pr-1"></i>
+                                <i class="fa fa-heart pl-1"></i>
                             </div>
                             <!-- end likes icon -->
 
                             <!-- reposted part -->
                             <div class="row text-gray-cety">
                                 <h6>3</h6><!-- reposted number -->
-                                <i class="fa fa-reply pr-1"></i>
+                                <i class="fa fa-reply pl-1"></i>
                             </div>
                             <!-- end reposted part -->
 
                             <!-- coments part -->
                             <div class="row text-gray-cety">
                                 <h6>3</h6><!-- coments number -->
-                                <i class="fa fa-comment pr-1"></i>
+                                <i class="fa fa-comment pl-1"></i>
                             </div>
                             <!-- end coments part -->
                         </div>
@@ -387,7 +387,7 @@ get_header();
             <div class="container mx-auto px-3 px-md-0">
                 <!-- title of this part -->
                 <div class="row">
-                    <i class="fab fa-instagram fa-15x pl-2 instagram-color"></i><!-- instagram icon -->
+                    <i class="fab fa-instagram fa-15x pr-2 instagram-color"></i><!-- instagram icon -->
                     <h4>آخرین پست های ما</h4><!-- the title -->
                 </div>
                 <!-- end tittle of this part  -->
@@ -406,8 +406,10 @@ get_header();
                     <div id="insta_posts" class="d-none d-flex flex-row pb-4" style="overflow-x: hidden;">
 
                         <!-- instagram post part -->
-                        <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety ml-3">
-                            <a href="https://www.google.com" class="d-flex h-100">
+                        <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety mr-3">
+                        <div class="d-flex h-100">
+                            <a href="https://www.google.com">
+                            <div class="d-flex h-100">
                                 <div class="d-flex flex-column justify-content-between">
                                     <!-- header of post -->
                                     <div class="d-flex flex-row align-items-center justify-content-between p-3">
@@ -440,13 +442,18 @@ get_header();
                                     </div>
                                     <!-- end footer of instagram post -->
                                 </div>
+                            </div>
                             </a>
+                        </div>
+
                         </div>
                         <!-- end instagram post part -->
 
                         <!-- instagram post part -->
-                        <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety ml-3">
-                            <a href="https://www.google.com" class="d-flex h-100">
+                        <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety mr-3">
+                        <div class="d-flex h-100">
+                            <a href="https://www.google.com">
+                            <div class="d-flex h-100">
                                 <div class="d-flex flex-column justify-content-between">
                                     <!-- header of post -->
                                     <div class="d-flex flex-row align-items-center justify-content-between p-3">
@@ -479,13 +486,17 @@ get_header();
                                     </div>
                                     <!-- end footer of instagram post -->
                                 </div>
+</div>
                             </a>
+</div>
                         </div>
                         <!-- end instagram post part -->
 
                         <!-- instagram post part -->
-                        <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety ml-3">
-                            <a href="https://www.google.com" class="d-flex h-100">
+                        <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety mr-3">
+                        <div class="d-flex h-100">
+                            <a href="https://www.google.com">
+                            <div class="d-flex h-100">
                                 <div class="d-flex flex-column justify-content-between">
                                     <!-- header of post -->
                                     <div class="d-flex flex-row align-items-center justify-content-between p-3">
@@ -518,13 +529,17 @@ get_header();
                                     </div>
                                     <!-- end footer of instagram post -->
                                 </div>
+                                </div>
                             </a>
+                            </div>
                         </div>
                         <!-- end instagram post part -->
 
                         <!-- instagram post part -->
-                        <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety ml-3">
-                            <a href="https://www.google.com" class="d-flex h-100">
+                        <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety mr-3">
+                        <div class="d-flex h-100">
+                            <a href="https://www.google.com">
+                            <div class="d-flex h-100">
                                 <div class="d-flex flex-column justify-content-between">
                                     <!-- header of post -->
                                     <div class="d-flex flex-row align-items-center justify-content-between p-3">
@@ -557,7 +572,9 @@ get_header();
                                     </div>
                                     <!-- end footer of instagram post -->
                                 </div>
+                                </div>
                             </a>
+                            </div>
                         </div>
                         <!-- end instagram post part -->
 

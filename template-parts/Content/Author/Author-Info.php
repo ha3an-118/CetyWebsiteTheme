@@ -18,7 +18,7 @@ if (get_the_author() == null)
             <div class="col-10 d-flex flex-column">
                 <!-- about writer part -->
                 <div>
-                    <div class="text-right">
+                    <div class="text-left">
                         <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>">
                             <h6><?php echo esc_html(get_the_author()) ?></h6><!-- name -->
                         </a>

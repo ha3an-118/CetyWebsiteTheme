@@ -17,9 +17,9 @@ get_header();
 
         <!-- search box -->
         <div class="d-flex flex-row justify-content-center my-2">
-            <div class="col-10 col-sm-8 col-md-6 col-lg-4 text-right">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 text-left">
                 <button type="button" id="" class="bg-transparent border-0 search-btn px-2">
-                    <i class="fa fa-search pr-2"></i>
+                    <i class="fa fa-search pl-2"></i>
                 </button>
                 <input type="search" class="form-control shadow text-dark-cety rounded-15px px-3" id="" aria-describedby="search" placeholder="جستجوی نام مقاله..."><!-- name input -->
             </div>

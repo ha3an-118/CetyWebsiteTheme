@@ -12,8 +12,8 @@
     <section class="px-3">
 
         <!-- title of this section -->
-        <div class="text-purple-cety text-right">
-            <span class="pl-1"><?php esc_html_e(get_comment_count()['all']); ?></span><span> <?php _e('دیدگاه', CetyWebsiteThemeTextDomain); ?></span>
+        <div class="text-purple-cety text-left">
+            <span class="pr-1"><?php esc_html_e(get_comment_count()['all']); ?></span><span> <?php _e('دیدگاه', CetyWebsiteThemeTextDomain); ?></span>
         </div>
         <!-- end title of this section -->
 

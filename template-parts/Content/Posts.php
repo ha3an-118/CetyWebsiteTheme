@@ -14,20 +14,21 @@ $Args = array(
 $wp_query = $Posts = new WP_Query($Args);
 ?>
 
-<div class="row d-flex justify-content-around">
+<div class="d-flex flex-wrap justify-content-around">
 
     <?php
     while ($Posts->have_posts()) {
         $Posts->the_post();
         ?>
 
-        <div class="col-5 col-md-2 my-3 rounded shadow bg-white-cety">
+        <div class="col-5 col-md-2 my-3 mx-md-4 rounded shadow bg-white-cety">
+        <div class="d-flex h-100">
             <a href="<?php echo esc_url(the_permalink()) ?>">
                 <!-- weblog -->
                 <div class="card border-0">
                     <?php get_template_part('template-parts/Content/PostThumbnail/PostThumbnail') ?>
                     <!-- weblog image -->
-                    <div class="card-body fa-08x p-2 text-right">
+                    <div class="card-body fa-08x p-2 text-left">
                         <h6 class="card-title text-dark-cety"><?php the_title() ?></h6>
                         <!-- weblog titlte -->
                         <p class="card-text fa-07x py-2 text-gray-cety">
@@ -37,6 +38,7 @@ $wp_query = $Posts = new WP_Query($Args);
                 </div>
                 <!-- end weblog -->
             </a>
+        </div>
         </div>
 
     <?php
