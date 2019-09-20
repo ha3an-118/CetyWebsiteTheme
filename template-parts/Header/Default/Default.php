@@ -17,7 +17,7 @@
     ?>
 </head>
 
-<body <?php body_class(); ?> dir="rtl">
+<body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
     <!-- header part -->
