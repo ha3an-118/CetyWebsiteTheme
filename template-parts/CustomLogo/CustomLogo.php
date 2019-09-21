@@ -9,6 +9,8 @@ if (function_exists('has_custom_logo') && has_custom_logo()) {
 }
 ?>
 
-<a href="<?php echo $HomeURL ?>">
-    <img class="w-75" src="<?php echo $LogoURL ?>" alt="<?php get_bloginfo('name') ?>">
-</a>
+<div class="d-flex w-75">
+    <a href="<?php echo $HomeURL ?>">
+        <img class="w-100" src="<?php echo $LogoURL ?>" alt="<?php get_bloginfo('name') ?>">
+    </a>
+</div>
