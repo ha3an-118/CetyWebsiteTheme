@@ -112,7 +112,7 @@ nav ul li.current-menu-item span {
 	border-bottom: solid 2px var(--purple-cety);
 }
 
-li:after {
+li:not(.current-menu-item):after {
 	display: block;
 	content: '';
 	border-bottom: solid 2px var(--purple-cety);
