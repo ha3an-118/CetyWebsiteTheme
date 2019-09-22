@@ -105,7 +105,7 @@
                             <i class="fa fa-times fa-2x"></i>
                         </button><!-- close btn -->
                     </div>
-                    <div class="col-7 text-left">
+                    <div class="col-3 col-sm-1" id="sidenav_logo">
                         <?php
                         //custom logo
                         get_template_part('template-parts/CustomLogo/CustomLogo');
@@ -115,7 +115,7 @@
                 </div>
                 <!-- end logo and close btn -->
                 <!-- links list -->
-                <div class="w-100 text-center">
+                <div class="w-100 text-center" id="sidenavlist">
                     <?php
                     //navigation menu for header
                     get_template_part('template-parts/Navigation/Header', 'Navigation');
