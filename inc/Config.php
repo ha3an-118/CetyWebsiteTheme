@@ -22,6 +22,9 @@ const NumberPageNumbersArroundCurrentPageNumber = 2;
 //blog page
 const NumberPostsPerPage = 4;
 
+//theme update
+const ThemeUpdateURL = 'http://localhost/WordPressThemeUpdateServerTest/';
+
 //theme customizer
 //front page panel
 const CustomizerFrontPagePanelId = 'CetyCustomizerFrontPagePanelId';

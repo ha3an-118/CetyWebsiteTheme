@@ -43,3 +43,6 @@ add_action('template_redirect', function () {
 
 //add customizer
 require_once(get_template_directory() . '/inc/Customizer.php');
+
+//add theme updater
+require_once(get_template_directory() . '/inc/ThemeUpdate.php');
