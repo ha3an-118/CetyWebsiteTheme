@@ -99,7 +99,7 @@
         <nav class="sidenav pt-1 bg-white-cety" id="Sidenav">
             <div class="d-flex flex-column">
                 <!-- logo and close btn -->
-                <div class="d-flex flex-row align-items-center justify-content-around">
+                <div class="d-flex flex-row">
                     <div class="text-center">
                         <button class="btn border-none text-dark-cety bg-transparent" onclick="closeNav()">
                             <i class="fa fa-times fa-2x"></i>

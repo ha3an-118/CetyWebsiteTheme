@@ -234,7 +234,7 @@ function wpadminbar_mt() {
 
 function rm_sidenavlist_closeNav(){
 
-    $("#sidenavlist").children("ul").removeAttr('class');
+    $("#sidenavlist ul").removeAttr('class');
 }
 
 /* end remove sidenavlist classes */
