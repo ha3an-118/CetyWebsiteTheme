@@ -13,23 +13,28 @@ get_header();
         <section>
             <div class="d-flex flex-row justify-content-between container mx-auto px-3 px-md-0">
                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class="text-center text-dark-cety" id="<?php echo FrontPageCustomizeSloganTitleSettingId ?>"><?php esc_html_e(get_theme_mod(FrontPageCustomizeSloganTitleSettingId)) ?></h3><!-- title -->
+                    <h3 class="text-center text-dark-cety" id="<?php echo FrontPageCustomizeSloganTitleSettingId ?>">
+                        <?php esc_html_e(get_theme_mod(FrontPageCustomizeSloganTitleSettingId)) ?></h3><!-- title -->
                     <div class="space-20"></div> <!-- this is for spacing -->
-                    <span class="text-center text-dark-cety" id="<?php echo FrontPageCustomizeSloganContentSettingId ?>">
+                    <span class="text-center text-dark-cety"
+                        id="<?php echo FrontPageCustomizeSloganContentSettingId ?>">
                         <!-- description -->
                         <?php esc_html_e(get_theme_mod(FrontPageCustomizeSloganContentSettingId)) ?>
                     </span>
                     <div class="space-100"></div> <!-- this is for spacing -->
                     <div>
-                        <a href="<?php echo esc_url(get_permalink(get_theme_mod(FrontPageCustomizeOrderButtonLinkSettingId))) ?>">
-                            <span id="<?php echo FrontPageCustomizeOrderButtonTitleSettingId ?>" class="btn rounded shadow bg-purple-cety text-white-cety hover-bg-light-purple-cety focus-bg-light-purple-cety">
+                        <a
+                            href="<?php echo esc_url(get_permalink(get_theme_mod(FrontPageCustomizeOrderButtonLinkSettingId))) ?>">
+                            <span id="<?php echo FrontPageCustomizeOrderButtonTitleSettingId ?>"
+                                class="btn rounded shadow bg-purple-cety text-white-cety hover-bg-light-purple-cety focus-bg-light-purple-cety">
                                 <?php esc_html_e(get_theme_mod(FrontPageCustomizeOrderButtonTitleSettingId)) ?>
                             </span>
                         </a>
                     </div><!-- btn for order website page -->
                 </div>
                 <div class="col-12 col-lg-5 img-intro">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Background/WebDesign.png'); ?>" alt="" class="w-100">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Background/WebDesign.png'); ?>"
+                        alt="" class="w-100">
                 </div>
             </div>
         </section>
@@ -46,7 +51,7 @@ get_header();
                 <div class="space-100"></div> <!-- this is for spacing -->
 
                 <!-- body of this section -->
-                <div class="row d-flex justify-content-around">
+                <div class="row d-flex justify-content-around ourservice-animate">
 
                     <!-- seo part -->
                     <div class="col-6 col-md-4 col-lg-2 my-3 d-flex flex-column align-items-center p-5 blob1">
@@ -123,7 +128,7 @@ get_header();
                 <div class="space-100"></div> <!-- this is for spacing -->
 
                 <!-- body of this section -->
-                <div class="row d-flex justify-content-around">
+                <div class="row d-flex justify-content-around whyus-animate">
 
                     <!-- wordpress part -->
                     <div class="col-6 col-md-4 col-lg-3 my-3 d-flex flex-column align-items-center p-5 blob1">
@@ -186,7 +191,7 @@ get_header();
             <div class="row d-flex justify-content-around container mx-auto px-3 px-md-0">
 
                 <!-- hassan abedi part -->
-                <div class="col-12 col-lg-3 my-3 d-flex flex-row rounded shadow bg-white-cety py-3 px-2">
+                <div class="col-12 col-lg-3 my-3 d-flex flex-row rounded shadow bg-white-cety py-3 px-2 founder1-animate">
                     <!-- text part -->
                     <div class="col-10 d-flex flex-column">
                         <!-- about person part -->
@@ -202,11 +207,14 @@ get_header();
                         <!-- social media part -->
                         <div>
                             <div class="d-flex justify-content-around pt-2">
-                                <a href=""><i class="fab fa-twitter text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fab fa-twitter text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
                                 <!-- twitter icon -->
-                                <a href=""><i class="fab fa-instagram text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fab fa-instagram text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
                                 <!-- instagram icon -->
-                                <a href=""><i class="fa fa-paper-plane text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fa fa-paper-plane text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
                                 <!-- telegram icon -->
                             </div>
                         </div>
@@ -216,14 +224,15 @@ get_header();
 
                     <!-- image part -->
                     <div class="col-2">
-                        <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Founder/Hassan.jpg') ?>" alt="hasan-abedi-image" width="50px" class="rounded-circle img-thumbnail">
+                        <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Founder/Hassan.jpg') ?>"
+                            alt="hasan-abedi-image" width="50px" class="rounded-circle img-thumbnail">
                     </div>
                     <!-- end image part -->
                 </div>
                 <!-- end hassan abedi part -->
 
                 <!-- abbas babaie part -->
-                <div class="col-12 col-lg-3 my-3 d-flex flex-row rounded shadow bg-white-cety py-3 px-2">
+                <div class="col-12 col-lg-3 my-3 d-flex flex-row rounded shadow bg-white-cety py-3 px-2 founder2-animate">
                     <!-- text part -->
                     <div class="col-10 d-flex flex-column">
                         <!-- about person part -->
@@ -239,11 +248,14 @@ get_header();
                         <!-- social media part -->
                         <div>
                             <div class="d-flex justify-content-around pt-2">
-                                <a href=""><i class="fab fa-twitter text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fab fa-twitter text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
                                 <!-- twitter icon -->
-                                <a href=""><i class="fab fa-instagram text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fab fa-instagram text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
                                 <!-- instagram icon -->
-                                <a href=""><i class="fa fa-paper-plane text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fa fa-paper-plane text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
                                 <!-- telegram icon -->
                             </div>
                         </div>
@@ -253,14 +265,15 @@ get_header();
 
                     <!-- image part -->
                     <div class="col-2">
-                        <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Founder/Abbas.jpg') ?>" alt="abbas-image" width="50px" class="rounded-circle img-thumbnail">
+                        <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Founder/Abbas.jpg') ?>"
+                            alt="abbas-image" width="50px" class="rounded-circle img-thumbnail">
                     </div>
                     <!-- end image part -->
                 </div>
                 <!-- end abbas babaie part -->
 
                 <!-- parsa part -->
-                <div class="col-12 col-lg-3 my-3 d-flex flex-row rounded shadow bg-white-cety py-3 px-2">
+                <div class="col-12 col-lg-3 my-3 d-flex flex-row rounded shadow bg-white-cety py-3 px-2 founder3-animate">
                     <!-- text part -->
                     <div class="col-10 d-flex flex-column">
                         <!-- about person part -->
@@ -276,11 +289,14 @@ get_header();
                         <!-- social media part -->
                         <div>
                             <div class="d-flex justify-content-around pt-2">
-                                <a href=""><i class="fab fa-twitter text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fab fa-twitter text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
                                 <!-- twitter icon -->
-                                <a href=""><i class="fab fa-instagram text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fab fa-instagram text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
                                 <!-- instagram icon -->
-                                <a href=""><i class="fa fa-paper-plane text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fa fa-paper-plane text-gray-cety hover-text-purple-cety focus-text-purple-cety mx-1"></i></a>
                                 <!-- telegram icon -->
                             </div>
                         </div>
@@ -290,7 +306,8 @@ get_header();
 
                     <!-- image part -->
                     <div class="col-2">
-                        <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Founder/Parsa.jpg') ?>" alt="parsa-image" width="50px" class="rounded-circle img-thumbnail">
+                        <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Founder/Parsa.jpg') ?>"
+                            alt="parsa-image" width="50px" class="rounded-circle img-thumbnail">
                     </div>
                     <!-- end image part -->
                 </div>
@@ -314,7 +331,7 @@ get_header();
                 <div class="space-100"></div> <!-- this is for spacing -->
 
                 <!-- twiteer box -->
-                <div class="d-flex flex-row rounded shadow bg-white-cety py-3 px-2">
+                <div class="d-flex flex-row rounded shadow bg-white-cety py-3 px-2 twitter-animate">
                     <!-- text part -->
                     <div class="col-10 d-flex flex-column">
                         <!-- writer part -->
@@ -369,7 +386,8 @@ get_header();
                     <!-- image part -->
                     <div class="col-2 d-flex justify-content-around">
                         <div class="col-12 col-md-4">
-                            <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Logo/Logo.png') ?>" alt="cety-logo" width="" class="rounded-circle img-thumbnail">
+                            <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Logo/Logo.png') ?>"
+                                alt="cety-logo" width="" class="rounded-circle img-thumbnail">
                         </div>
                     </div>
                     <!-- end image part -->
@@ -395,7 +413,7 @@ get_header();
                 <div class="space-100"></div> <!-- this is for spacing -->
 
                 <!-- instagram post part -->
-                <div class="col">
+                <div class="col instagram-animate">
                     <div class="" style="position: absolute;right: 0;opacity:1;top: 40%;z-index: 100;height: 100px;">
                         <button name="btn-right" type="button" onclick="scroll_right()" class="h-100 w-100 border shadow rounded-left bg-white-cety px-3
 										 text-gray-cety hover-text-light-purple-cety focus-text-purple-cety">
@@ -407,173 +425,193 @@ get_header();
 
                         <!-- instagram post part -->
                         <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety mr-3">
-                        <div class="d-flex h-100">
-                            <a href="https://www.google.com">
                             <div class="d-flex h-100">
-                                <div class="d-flex flex-column justify-content-between">
-                                    <!-- header of post -->
-                                    <div class="d-flex flex-row align-items-center justify-content-between p-3">
-                                        <i class="fas fa-ellipsis-v fa-15x text-gray-cety"></i>
-                                        <div class="col-2">
-                                            <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Logo/Logo.png') ?>" alt="cety-logo-image" width="50px" class="rounded-circle img-thumbnail border">
-                                            <!-- page picture -->
-                                        </div>
-                                    </div>
-                                    <!-- end header of post -->
+                                <a href="https://www.google.com">
+                                    <div class="d-flex h-100">
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <!-- header of post -->
+                                            <div class="d-flex flex-row align-items-center justify-content-between p-3">
+                                                <i class="fas fa-ellipsis-v fa-15x text-gray-cety"></i>
+                                                <div class="col-2">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Logo/Logo.png') ?>"
+                                                        alt="cety-logo-image" width="50px"
+                                                        class="rounded-circle img-thumbnail border">
+                                                    <!-- page picture -->
+                                                </div>
+                                            </div>
+                                            <!-- end header of post -->
 
-                                    <!-- post content -->
-                                    <div class="">
-                                        <img id="" src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Other/SEO.jpg') ?>" alt="instagram-post" class="myimg w-100">
-                                        <!-- the content -->
-                                    </div>
-                                    <!-- end post content -->
+                                            <!-- post content -->
+                                            <div class="">
+                                                <img id=""
+                                                    src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Other/SEO.jpg') ?>"
+                                                    alt="instagram-post" class="myimg w-100">
+                                                <!-- the content -->
+                                            </div>
+                                            <!-- end post content -->
 
-                                    <!-- footer of the instagram post -->
-                                    <div class="d-flex flex-row align-items-center align-self-end justify-content-between p-3">
-                                        <div>
-                                            <i class="fa fa-tag fa-15x d-none"></i>
-                                        </div>
-                                        <div>
-                                            <i id="insta" class="fa fa-paper-plane fa-15x mx-2"></i>
-                                            <!-- share icon -->
-                                            <i class="fa fa-comment fa-15x mx-2"></i><!-- coments icon -->
-                                            <i class="fa fa-heart fa-15x mx-2"></i><!-- like icons -->
+                                            <!-- footer of the instagram post -->
+                                            <div
+                                                class="d-flex flex-row align-items-center align-self-end justify-content-between p-3">
+                                                <div>
+                                                    <i class="fa fa-tag fa-15x d-none"></i>
+                                                </div>
+                                                <div>
+                                                    <i id="insta" class="fa fa-paper-plane fa-15x mx-2"></i>
+                                                    <!-- share icon -->
+                                                    <i class="fa fa-comment fa-15x mx-2"></i><!-- coments icon -->
+                                                    <i class="fa fa-heart fa-15x mx-2"></i><!-- like icons -->
+                                                </div>
+                                            </div>
+                                            <!-- end footer of instagram post -->
                                         </div>
                                     </div>
-                                    <!-- end footer of instagram post -->
-                                </div>
+                                </a>
                             </div>
-                            </a>
-                        </div>
 
                         </div>
                         <!-- end instagram post part -->
 
                         <!-- instagram post part -->
                         <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety mr-3">
-                        <div class="d-flex h-100">
-                            <a href="https://www.google.com">
                             <div class="d-flex h-100">
-                                <div class="d-flex flex-column justify-content-between">
-                                    <!-- header of post -->
-                                    <div class="d-flex flex-row align-items-center justify-content-between p-3">
-                                        <i class="fas fa-ellipsis-v fa-15x text-gray-cety"></i>
-                                        <div class="col-2">
-                                            <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Logo/Logo.png') ?>" alt="cety-logo-image" width="50px" class="rounded-circle img-thumbnail border">
-                                            <!-- page picture -->
-                                        </div>
-                                    </div>
-                                    <!-- end header of post -->
+                                <a href="https://www.google.com">
+                                    <div class="d-flex h-100">
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <!-- header of post -->
+                                            <div class="d-flex flex-row align-items-center justify-content-between p-3">
+                                                <i class="fas fa-ellipsis-v fa-15x text-gray-cety"></i>
+                                                <div class="col-2">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Logo/Logo.png') ?>"
+                                                        alt="cety-logo-image" width="50px"
+                                                        class="rounded-circle img-thumbnail border">
+                                                    <!-- page picture -->
+                                                </div>
+                                            </div>
+                                            <!-- end header of post -->
 
-                                    <!-- post content -->
-                                    <div class="">
-                                        <img id="" src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Other/Beach.jpg') ?>" alt="instagram-post" class="myimg w-100">
-                                        <!-- the content -->
-                                    </div>
-                                    <!-- end post content -->
+                                            <!-- post content -->
+                                            <div class="">
+                                                <img id=""
+                                                    src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Other/Beach.jpg') ?>"
+                                                    alt="instagram-post" class="myimg w-100">
+                                                <!-- the content -->
+                                            </div>
+                                            <!-- end post content -->
 
-                                    <!-- footer of the instagram post -->
-                                    <div class="d-flex flex-row align-items-center align-self-end justify-content-between p-3">
-                                        <div>
-                                            <i class="fa fa-tag fa-15x d-none"></i>
-                                        </div>
-                                        <div>
-                                            <i id="insta" class="fa fa-paper-plane fa-15x mx-2"></i>
-                                            <!-- share icon -->
-                                            <i class="fa fa-comment fa-15x mx-2"></i><!-- coments icon -->
-                                            <i class="fa fa-heart fa-15x mx-2"></i><!-- like icons -->
-                                        </div>
-                                    </div>
-                                    <!-- end footer of instagram post -->
-                                </div>
-</div>
-                            </a>
-</div>
-                        </div>
-                        <!-- end instagram post part -->
-
-                        <!-- instagram post part -->
-                        <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety mr-3">
-                        <div class="d-flex h-100">
-                            <a href="https://www.google.com">
-                            <div class="d-flex h-100">
-                                <div class="d-flex flex-column justify-content-between">
-                                    <!-- header of post -->
-                                    <div class="d-flex flex-row align-items-center justify-content-between p-3">
-                                        <i class="fas fa-ellipsis-v fa-15x text-gray-cety"></i>
-                                        <div class="col-2">
-                                            <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Logo/Logo.png') ?>" alt="cety-logo-image" width="50px" class="rounded-circle img-thumbnail border">
-                                            <!-- page picture -->
+                                            <!-- footer of the instagram post -->
+                                            <div
+                                                class="d-flex flex-row align-items-center align-self-end justify-content-between p-3">
+                                                <div>
+                                                    <i class="fa fa-tag fa-15x d-none"></i>
+                                                </div>
+                                                <div>
+                                                    <i id="insta" class="fa fa-paper-plane fa-15x mx-2"></i>
+                                                    <!-- share icon -->
+                                                    <i class="fa fa-comment fa-15x mx-2"></i><!-- coments icon -->
+                                                    <i class="fa fa-heart fa-15x mx-2"></i><!-- like icons -->
+                                                </div>
+                                            </div>
+                                            <!-- end footer of instagram post -->
                                         </div>
                                     </div>
-                                    <!-- end header of post -->
-
-                                    <!-- post content -->
-                                    <div class="">
-                                        <img id="" src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Other/Balloon.jpg') ?>" alt="instagram-post" class="myimg w-100">
-                                        <!-- the content -->
-                                    </div>
-                                    <!-- end post content -->
-
-                                    <!-- footer of the instagram post -->
-                                    <div class="d-flex flex-row align-items-center align-self-end justify-content-between p-3">
-                                        <div>
-                                            <i class="fa fa-tag fa-15x d-none"></i>
-                                        </div>
-                                        <div>
-                                            <i id="insta" class="fa fa-paper-plane fa-15x mx-2"></i>
-                                            <!-- share icon -->
-                                            <i class="fa fa-comment fa-15x mx-2"></i><!-- coments icon -->
-                                            <i class="fa fa-heart fa-15x mx-2"></i><!-- like icons -->
-                                        </div>
-                                    </div>
-                                    <!-- end footer of instagram post -->
-                                </div>
-                                </div>
-                            </a>
+                                </a>
                             </div>
                         </div>
                         <!-- end instagram post part -->
 
                         <!-- instagram post part -->
                         <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety mr-3">
-                        <div class="d-flex h-100">
-                            <a href="https://www.google.com">
                             <div class="d-flex h-100">
-                                <div class="d-flex flex-column justify-content-between">
-                                    <!-- header of post -->
-                                    <div class="d-flex flex-row align-items-center justify-content-between p-3">
-                                        <i class="fas fa-ellipsis-v fa-15x text-gray-cety"></i>
-                                        <div class="col-2">
-                                            <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Logo/Logo.png') ?>" alt="cety-logo-image" width="50px" class="rounded-circle img-thumbnail border">
-                                            <!-- page picture -->
-                                        </div>
-                                    </div>
-                                    <!-- end header of post -->
+                                <a href="https://www.google.com">
+                                    <div class="d-flex h-100">
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <!-- header of post -->
+                                            <div class="d-flex flex-row align-items-center justify-content-between p-3">
+                                                <i class="fas fa-ellipsis-v fa-15x text-gray-cety"></i>
+                                                <div class="col-2">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Logo/Logo.png') ?>"
+                                                        alt="cety-logo-image" width="50px"
+                                                        class="rounded-circle img-thumbnail border">
+                                                    <!-- page picture -->
+                                                </div>
+                                            </div>
+                                            <!-- end header of post -->
 
-                                    <!-- post content -->
-                                    <div class="">
-                                        <img id="" src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Other/WebDesign.jpg') ?>" alt="instagram-post" class="myimg w-100">
-                                        <!-- the content -->
-                                    </div>
-                                    <!-- end post content -->
+                                            <!-- post content -->
+                                            <div class="">
+                                                <img id=""
+                                                    src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Other/Balloon.jpg') ?>"
+                                                    alt="instagram-post" class="myimg w-100">
+                                                <!-- the content -->
+                                            </div>
+                                            <!-- end post content -->
 
-                                    <!-- footer of the instagram post -->
-                                    <div class="d-flex flex-row align-items-center align-self-end justify-content-between p-3">
-                                        <div>
-                                            <i class="fa fa-tag fa-15x d-none"></i>
-                                        </div>
-                                        <div>
-                                            <i id="insta" class="fa fa-paper-plane fa-15x mx-2"></i>
-                                            <!-- share icon -->
-                                            <i class="fa fa-comment fa-15x mx-2"></i><!-- coments icon -->
-                                            <i class="fa fa-heart fa-15x mx-2"></i><!-- like icons -->
+                                            <!-- footer of the instagram post -->
+                                            <div
+                                                class="d-flex flex-row align-items-center align-self-end justify-content-between p-3">
+                                                <div>
+                                                    <i class="fa fa-tag fa-15x d-none"></i>
+                                                </div>
+                                                <div>
+                                                    <i id="insta" class="fa fa-paper-plane fa-15x mx-2"></i>
+                                                    <!-- share icon -->
+                                                    <i class="fa fa-comment fa-15x mx-2"></i><!-- coments icon -->
+                                                    <i class="fa fa-heart fa-15x mx-2"></i><!-- like icons -->
+                                                </div>
+                                            </div>
+                                            <!-- end footer of instagram post -->
                                         </div>
                                     </div>
-                                    <!-- end footer of instagram post -->
-                                </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end instagram post part -->
+
+                        <!-- instagram post part -->
+                        <div class="col-12 col-sm-4 col-md-3 rounded shadow bg-white-cety mr-3">
+                            <div class="d-flex h-100">
+                                <a href="https://www.google.com">
+                                    <div class="d-flex h-100">
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <!-- header of post -->
+                                            <div class="d-flex flex-row align-items-center justify-content-between p-3">
+                                                <i class="fas fa-ellipsis-v fa-15x text-gray-cety"></i>
+                                                <div class="col-2">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Logo/Logo.png') ?>"
+                                                        alt="cety-logo-image" width="50px"
+                                                        class="rounded-circle img-thumbnail border">
+                                                    <!-- page picture -->
+                                                </div>
+                                            </div>
+                                            <!-- end header of post -->
+
+                                            <!-- post content -->
+                                            <div class="">
+                                                <img id=""
+                                                    src="<?php echo esc_url(get_template_directory_uri() . '/Assets/Images/Other/WebDesign.jpg') ?>"
+                                                    alt="instagram-post" class="myimg w-100">
+                                                <!-- the content -->
+                                            </div>
+                                            <!-- end post content -->
+
+                                            <!-- footer of the instagram post -->
+                                            <div
+                                                class="d-flex flex-row align-items-center align-self-end justify-content-between p-3">
+                                                <div>
+                                                    <i class="fa fa-tag fa-15x d-none"></i>
+                                                </div>
+                                                <div>
+                                                    <i id="insta" class="fa fa-paper-plane fa-15x mx-2"></i>
+                                                    <!-- share icon -->
+                                                    <i class="fa fa-comment fa-15x mx-2"></i><!-- coments icon -->
+                                                    <i class="fa fa-heart fa-15x mx-2"></i><!-- like icons -->
+                                                </div>
+                                            </div>
+                                            <!-- end footer of instagram post -->
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <!-- end instagram post part -->
@@ -581,7 +619,8 @@ get_header();
                     </div>
 
                     <div class="" style="position: absolute;left: 0;opacity:1;top: 40%;z-index: 100;height: 100px;">
-                        <button name="btn-left" type="button" onclick="scroll_left()" class="h-100 w-100 border shadow rounded-right bg-white-cety px-3 text-gray-cety hover-text-light-purple-cety focus-text-purple-cety">
+                        <button name="btn-left" type="button" onclick="scroll_left()"
+                            class="h-100 w-100 border shadow rounded-right bg-white-cety px-3 text-gray-cety hover-text-light-purple-cety focus-text-purple-cety">
                             <i class="fa fa-angle-left fa-2x"></i>
                         </button>
                     </div>
