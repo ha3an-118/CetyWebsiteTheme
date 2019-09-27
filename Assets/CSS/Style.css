@@ -79,7 +79,7 @@
 }
 
 body {
-	background-color: var(--light-cety);
+	background-color: var(--light-cety) !important;
 	color: var(--dark-cety) !important;
 	width: 100% !important;
 }
@@ -381,3 +381,26 @@ select,
 }
 
 /*end ovver writing bootstrap */
+
+/* Animation on scroll*/
+
+.ourservice-animate,
+.whyus-animate,
+.founder1-animate,
+.founder2-animate,
+.founder3-animate,
+.twitter-animate,
+.instagram-animate {
+	opacity: 0;
+}
+
+.ourservice-animate.animated,
+.founder1-animate.animated,
+.founder2-animate.animated,
+.founder3-animate.animated,
+.twitter-animate.animated,
+.instagram-animate.animated {
+	opacity: 1;
+}
+
+/* End Animation on scroll*/
