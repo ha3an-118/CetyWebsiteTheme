@@ -1,3 +1,4 @@
+jQuery(function($){
 /* on load functions */
 
 $(document).ready(function () {
@@ -87,12 +88,12 @@ function input_focus(inpt) {
     var prnt = $(inpt).parent(); //geting the div parent of the input
     var lbl = $(prnt).children("label"); //geting the label
     $(lbl).css({
-            "top": "-10px",
-            "right": "5px",
-            "transition": "all 0.3s",
-            "z-index": "100",
-            "color": "var(--purple-cety)"
-        })
+        "top": "-10px",
+        "right": "5px",
+        "transition": "all 0.3s",
+        "z-index": "100",
+        "color": "var(--purple-cety)"
+    })
         .addClass("bg-light-cety"); //moving the label out of the input
 }
 /*end on focus function*/
@@ -105,12 +106,12 @@ function input_focusout(inpt) {
     if ($(inpt).val().length === 0) //if input is empty
     {
         $(lbl).css({
-                "top": "10px",
-                "right": "10px",
-                "transition": "all 0.3s",
-                "z-index": "100",
-                "color": "var(--dark-cety)"
-            })
+            "top": "10px",
+            "right": "10px",
+            "transition": "all 0.3s",
+            "z-index": "100",
+            "color": "var(--dark-cety)"
+        })
             .removeClass("bg-light-cety"); //moving label back in the input
 
         $(delete_btn).addClass("d-none"); //hidden the clear btn
@@ -166,7 +167,7 @@ $(window).scroll(function () {
     //if there is no wp admin bar
     if (document.getElementById("wpadminbar") == null) {
         navbar_onscroll();
-    } 
+    }
     //if there is wpadmin bar
     else {
         //for mobile devices
@@ -184,7 +185,7 @@ $(window).scroll(function () {
                 $("header").addClass("mt-46px");
                 $("#Sidenav").addClass("mt-46px");
             }
-        } 
+        }
         //for lorge devices
         else {
             navbar_onscroll();
@@ -210,7 +211,7 @@ function navbar_onscroll() {
 function wpadminbar_mt() {
 
     if (document.getElementById("wpadminbar") != null) {
-        if(window.innerWidth <=782){
+        if (window.innerWidth <= 782) {
             $("header").addClass("mt-46px");
             $("main").addClass("mt-46px");
             $("#Sidenav").addClass("mt-46px");
@@ -219,7 +220,7 @@ function wpadminbar_mt() {
             $("main").removeClass("mt-32px");
             $("#Sidenav").removeClass("mt-32px");
         }
-        else if (window.innerWidth >782){
+        else if (window.innerWidth > 782) {
             $("header").addClass("mt-32px");
             $("main").addClass("mt-32px");
             $("#Sidenav").addClass("mt-32px");
@@ -234,7 +235,7 @@ function wpadminbar_mt() {
 
 /* remove sidenavlist all claseed */
 
-function rm_sidenavlist_closeNav(){
+function rm_sidenavlist_closeNav() {
 
     $("#sidenavlist ul").removeAttr('class');
 }
@@ -243,7 +244,7 @@ function rm_sidenavlist_closeNav(){
 
 /* side navbar add class to */
 
-function li_addcls(){
+function li_addcls() {
     $("#sidenavlist ul").children('li').unbind('mouseenter mouseleave');
     $("#sidenavlist ul").children('li').addClass("border-bottom");
 }
@@ -308,7 +309,9 @@ $(document).ready(function () {
     }, {
         offset: "60%"
     });
-    
+
+});
+
 });
 
 /* end Animations on scroll */
