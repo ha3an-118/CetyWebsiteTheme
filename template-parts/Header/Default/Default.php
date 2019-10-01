@@ -12,6 +12,8 @@
     wp_enqueue_style('Bootstrap');
     wp_enqueue_script('BootstrapJs');
     wp_enqueue_script('WebsiteJs');
+    wp_enqueue_script('JqueryWaypoints');
+    wp_enqueue_style('AnimateCSS');
 
     wp_head();
     ?>
